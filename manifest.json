@@ -1,7 +1,7 @@
 {
 	"name": "CacheBypass",
 	"version": "1.0",
-	"description": "Bypass client and server side cache",
+	"description": "Bypass client and server side cache.",
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
