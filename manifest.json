@@ -1,0 +1,21 @@
+{
+  "name": "CacheBypass",
+  "version": "1.0",
+  "description": "Bypass client and server side cache",
+  "permissions": [
+    "webRequest",
+	"webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts":["background.js"]
+  },
+  "content_scripts": [
+   {
+	 "run_at": "document_start",
+     "matches": ["<all_urls>"],
+     "js": ["contentScript.js"]
+   }
+  ],
+  "manifest_version": 2
+}
