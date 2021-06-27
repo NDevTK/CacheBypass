@@ -7,4 +7,4 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
 		url.searchParams.append(bypass, new Date().getTime());
 		return {redirectUrl: url.href };
 	}
-},{urls: ["<all_urls>"]}, ["blocking"]);
+}, {urls: ["<all_urls>"]}, ["blocking"]);
