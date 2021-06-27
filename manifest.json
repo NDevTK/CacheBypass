@@ -3,8 +3,7 @@
   "version": "1.0",
   "description": "Bypass client and server side cache",
   "permissions": [
-    "webRequest",
-	"webRequestBlocking",
+    "webRequest","webRequestBlocking",
     "<all_urls>"
   ],
   "background": {
